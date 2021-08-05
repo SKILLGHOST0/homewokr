@@ -6,7 +6,7 @@ namespace home_6
 {
     class Program
     {
-        static void TaskManager(string[] args)
+        static void Main(string[] args)
         {
             var procList = Process.GetProcesses();
             foreach (var proc in procList)
